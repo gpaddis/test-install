@@ -17,7 +17,7 @@ class Lemundo_Brand_Model_Observer
     {
         $product = $observer->getEvent()->getProduct();
         $productName = $product->getName();
-        $brandName = Mage::getStoreConfig('brand_options/testaufgabe/brand');
+        $brandName = Mage::getStoreConfig('lemundo/testaufgabe/brand');
 
         $product->setName($productName . $brandName);
 

@@ -8,7 +8,7 @@
     </tabs>
 
     <sections>
-        <brand_options translate="label" module="brand">
+        <lemundo translate="label" module="brand">
             <label>Lemundo</label>
             <tab>lemundo_config</tab>
             <frontend_type>text</frontend_type>
@@ -27,7 +27,7 @@
                     <fields>
                         <brand>
                             <label>Brand name</label>
-                            <comment>When you save a new product, the brand name will be appended to the product name.</comment>
+                            <comment>When you save a product, the brand name will be appended to the product name.</comment>
                             <frontend_type>text</frontend_type>
                             <sort_order>1</sort_order>
                             <show_in_default>1</show_in_default>
@@ -37,6 +37,6 @@
                     </fields>
                 </testaufgabe>
             </groups>
-        </brand_options>
+        </lemundo>
     </sections>
 </config>
