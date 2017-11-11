@@ -24,4 +24,26 @@
             </controller_front_init_routers>
         </events> -->
     </global>
+
+    <adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <brand_options>
+                                            <title>Store Brand Module Section</title>
+                                        </brand_options>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
 </config>
