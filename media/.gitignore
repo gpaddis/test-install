@@ -1,0 +1,5 @@
+# Keep the empty folder /media in version control to avoid problems during the installation process.
+# Ignore everything in this directory...
+*
+# ...except this file.
+!.gitignore
