@@ -3,7 +3,7 @@
     <tabs>
         <lemundo_config translate="label" module="brand">
             <label>Lemundo</label>
-            <sort_order>100</sort_order>
+            <sort_order>1</sort_order>
         </lemundo_config>
     </tabs>
 
@@ -12,7 +12,7 @@
             <label>Lemundo</label>
             <tab>lemundo_config</tab>
             <frontend_type>text</frontend_type>
-            <sort_order>1000</sort_order>
+            <sort_order>1</sort_order>
             <show_in_default>1</show_in_default>
             <show_in_website>1</show_in_website>
             <show_in_store>1</show_in_store>
@@ -24,6 +24,17 @@
                     <show_in_default>1</show_in_default>
                     <show_in_website>1</show_in_website>
                     <show_in_store>1</show_in_store>
+                    <fields>
+                        <brand>
+                            <label>Brand name</label>
+                            <comment>When you save a new product, the brand name will be appended to the product name.</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </brand>
+                    </fields>
                 </testaufgabe>
             </groups>
         </brand_options>
