@@ -6,8 +6,13 @@
         </Lemundo_Brand>
     </modules>
 
-    <!-- <global>
-        <events>
+    <global>
+        <helpers>
+            <brand>
+                <class>Lemundo_Brand_Helper</class>
+            </brand>
+        </helpers>
+        <!-- <events>
             <controller_front_init_routers>
                 <observers>
                     <Magentotutorial_configviewer_model_observer>
@@ -17,6 +22,6 @@
                     </Magentotutorial_configviewer_model_observer>
                 </observers>
             </controller_front_init_routers>
-        </events>
-    </global> -->
+        </events> -->
+    </global>
 </config>

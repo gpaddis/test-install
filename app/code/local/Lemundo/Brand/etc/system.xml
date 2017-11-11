@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <lemundo_config translate="label" module="brand">
+            <label>Lemundo</label>
+            <sort_order>100</sort_order>
+        </lemundo_config>
+    </tabs>
+
+    <sections>
+        <brand_options translate="label" module="brand">
+            <label>Lemundo</label>
+            <tab>lemundo_config</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+        </brand_options>
+    </sections>
+</config>
