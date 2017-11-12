@@ -8,9 +8,9 @@
 
     <global>
         <helpers>
-            <brand>
+            <lemundo_brand>
                 <class>Lemundo_Brand_Helper</class>
-            </brand>
+            </lemundo_brand>
         </helpers>
 
         <events>

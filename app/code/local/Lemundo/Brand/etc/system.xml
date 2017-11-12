@@ -1,17 +1,16 @@
 <?xml version="1.0"?>
 <config>
     <tabs>
-        <lemundo_config translate="label" module="brand">
+        <lemundo_brand translate="label" module="lemundo_brand">
             <label>Lemundo</label>
             <sort_order>1</sort_order>
-        </lemundo_config>
+        </lemundo_brand>
     </tabs>
 
     <sections>
-        <lemundo translate="label" module="brand">
+        <lemundo translate="label" module="lemundo_brand">
             <label>Lemundo</label>
-            <tab>lemundo_config</tab>
-            <frontend_type>text</frontend_type>
+            <tab>lemundo_brand</tab>
             <sort_order>1</sort_order>
             <show_in_default>1</show_in_default>
             <show_in_website>1</show_in_website>
@@ -19,7 +18,6 @@
             <groups>
                 <testaufgabe translate="label">
                     <label>Testaufgabe</label>
-                    <frontend_type>text</frontend_type>
                     <sort_order>1</sort_order>
                     <show_in_default>1</show_in_default>
                     <show_in_website>1</show_in_website>
