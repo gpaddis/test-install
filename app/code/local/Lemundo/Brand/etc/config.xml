@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Lemundo_Brand>
+            <version>0.1.0</version>
+        </Lemundo_Brand>
+    </modules>
+
+    <global>
+        <helpers>
+            <lemundo_brand>
+                <class>Lemundo_Brand_Helper</class>
+            </lemundo_brand>
+        </helpers>
+
+        <events>
+            <catalog_product_save_before>
+                <observers>
+                    <lemundo_brand_observer>
+                        <type>singleton</type>
+                        <class>Lemundo_Brand_Model_Observer</class>
+                        <method>appendBrandName</method>
+                    </lemundo_brand_observer>
+                </observers>
+            </catalog_product_save_before>
+        </events>
+    </global>
+</config>

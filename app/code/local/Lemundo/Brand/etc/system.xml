@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <lemundo_brand translate="label" module="lemundo_brand">
+            <label>Lemundo</label>
+            <sort_order>1</sort_order>
+        </lemundo_brand>
+    </tabs>
+
+    <sections>
+        <lemundo translate="label" module="lemundo_brand">
+            <label>Lemundo</label>
+            <tab>lemundo_brand</tab>
+            <sort_order>1</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <testaufgabe translate="label">
+                    <label>Testaufgabe</label>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <brand>
+                            <label>Brand name</label>
+                            <comment>When you save a product, the brand name will be appended to the product name.</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </brand>
+                    </fields>
+                </testaufgabe>
+            </groups>
+        </lemundo>
+    </sections>
+</config>
