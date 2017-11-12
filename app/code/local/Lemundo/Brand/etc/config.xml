@@ -25,26 +25,4 @@
             </catalog_product_save_before>
         </events>
     </global>
-
-    <adminhtml>
-        <acl>
-            <resources>
-                <admin>
-                    <children>
-                        <system>
-                            <children>
-                                <config>
-                                    <children>
-                                        <lemundo>
-                                            <title>Store Brand Module Section</title>
-                                        </lemundo>
-                                    </children>
-                                </config>
-                            </children>
-                        </system>
-                    </children>
-                </admin>
-            </resources>
-        </acl>
-    </adminhtml>
 </config>
